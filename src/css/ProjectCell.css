@@ -1,0 +1,96 @@
+.Projects {
+  width: 65%;
+}
+
+.ProjectCell{
+  display: inline;
+  margin: 0;
+  transition: all .2s ease-in-out;
+}
+
+.ProjectBasket:hover .ProjectTitle{
+  border-bottom: 1px dashed var(--copy);
+}
+
+.ProjectHead {
+  display: inline-flex;
+  white-space: normal;
+  word-wrap: normal;
+  word-break: normal;
+}
+
+.ProjectBody h2 {
+  display: inline-block;
+}
+
+.year {
+  border: 1px solid var(--copy);
+  border-radius: 50%;
+  padding: .25em 1em;
+  margin: 10px;
+  color: var(--copy);
+  font-size: 20px;
+  font-family: input-sans, sans-serif;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.imgwindow {
+  display: none;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  max-width: 30%;
+  right: 30px;
+  /*margin: -50px 50px 0 30px;*/
+}
+
+.ProjectImg {
+  align-self: center;
+  display: flex;
+  margin: auto;
+  transition: opacity .6s linear;
+  width: 100%;
+}
+
+.ProjectBasket:hover .imgwindow {
+  display: inline-flex;
+}
+
+.ProjectTitle {
+  color: var(--copy);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--copy);
+}
+
+@media screen and (max-width: 800px){
+
+  .imgwindow {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    right: auto;
+  }
+
+  .ProjectImg {
+    opacity: 1;
+    max-width: 100%;
+  }
+
+  .Projects{
+    width: 100%;
+  }
+
+  .ProjectCell{
+    margin: 20px 0 20px 0;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 800px){
+
+
+}

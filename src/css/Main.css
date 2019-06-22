@@ -1,0 +1,120 @@
+#root {
+  width: 100%;
+}
+
+h2, h4 {
+  margin: 0px;
+  color: var(--copy);
+  font-size: 3em;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  margin: 0px;
+  color: var(--copy);
+  font-size: 1.15em;
+  font-family: input-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  width: calc(100% - 20px) ;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+  background: var(--bg);
+  display: flex;
+  height: 100%;
+}
+
+.MainWindow {
+  padding-top: 60px;
+  margin: 30px;
+  width: 100%;
+}
+
+.Containter {
+  display: flex;
+  max-width: 100%;
+  height: 100%;
+}
+
+a, NavLink {
+  text-decoration: none;
+  color: var(--copy);
+}
+
+.link:hover {
+  color: var(--copy);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--copy);
+}
+
+.active{
+  color: var(--copy);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--copy);
+}
+
+.arrows {
+  fill: none;
+  stroke:  var(--copy);
+  stroke-miterlimit: 10;
+  stroke-width: 15px;
+}
+
+.arrow {
+  max-width: 30px;
+  display: inline-block;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px){
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2, h4 {
+  font-size: 2em;
+  }
+
+  h3 {
+  font-size: 1.25em;
+  }
+
+  .MainWindow {
+    padding: 40px 0px 10px 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .arrow {
+  max-width: 18px;
+  }
+}
+
+@media screen and (min-width: 800px){
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+  }
+
+}

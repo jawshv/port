@@ -1,0 +1,43 @@
+.me, .links {
+  width: calc(50% - 20px);
+  margin-bottom: 60px;
+}
+
+.links {
+  order: 1;
+}
+
+.me {
+  margin-left: 20px;
+  order: 2;
+}
+
+.Info {
+  margin: 54px 0px 0px 0px;
+  z-index: 3;
+  max-width: calc(100% - 20px);
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px){
+
+  .Info {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .Info, .me, .links {
+    width: 100%;
+  }
+
+  .links{
+    order: 2;
+  }
+
+  .me {
+    order: 1;
+    margin-left: 0px;
+  }
+}
