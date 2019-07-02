@@ -1,9 +1,8 @@
 @import url("https://use.typekit.net/pvc7hiq.css");
 
 :root{
-  --bg: grey;
+  --bg: white;
   --copy: black;
-  --stamp: red;
 }
 
 body {

@@ -21,8 +21,10 @@ class IndDraws extends Component {
                          <img className="imgfull" src={x.img1}/>
                        </div>
                )}
+               <h1 className="marquee">COMING SOON</h1>
       </div>
     );
+
   }
 }
 

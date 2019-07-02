@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Contact from '../data/Contact';
-import { ReactComponent as Awayarrow} from '../../icons/awayarrow.svg';
 import style from '../../css/Info.css';
 
 const block:any = {
@@ -18,7 +17,7 @@ class Info extends Component {
                 {Contact.map((e) =>
                   <div>
                   <h2>
-                    {(e.offsite) && <a className="link" target="_blank" href={e.offsite}>{e.offsitewords}<Awayarrow className="arrow"/></a>}</h2>
+                    {(e.offsite) && <a className="link" target="_blank" href={e.offsite}>{e.offsitewords}</a>}</h2>
                   </div>
                 )}
               </div>

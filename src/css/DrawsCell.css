@@ -12,6 +12,7 @@
 .Drawtxt {
   display: flex;
   flex: auto;
+  margin-top: 10px;
 }
 
 .Drawtxt .title {

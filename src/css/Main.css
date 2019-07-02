@@ -5,7 +5,7 @@
 h2, h4 {
   margin: 0px;
   color: var(--copy);
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: nimbus-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -21,25 +21,53 @@ h3 {
 }
 
 body {
-  width: calc(100% - 20px) ;
+  width: 100% ;
   font-weight: 400;
   font-style: normal;
   margin: 10px;
   background: var(--bg);
   display: flex;
   height: 100%;
-}
-
-.MainWindow {
-  padding-top: 60px;
-  margin: 30px;
-  width: 100%;
+  max-width: 2500px;
+  margin: auto;
 }
 
 .Containter {
+  margin: 10px;
   display: flex;
   max-width: 100%;
   height: 100%;
+}
+
+.MainWindow {
+  display: flex;
+  padding-top: 60px;
+  margin: 30px;
+  width: calc(100% - 40px);
+}
+
+@keyframes marquee {
+    0%   { text-indent: 100vw }
+    100% { text-indent: -200vw }
+}
+
+.marquee {
+  width: calc(100vw - 80px);
+  margin: 0px;
+  color: var(--bg);
+  background-color: var(--copy);
+  font-size: 25em;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 10s linear infinite;
+  border-radius: 6px;
+}
+
+img {
+  border-radius: 6px;
 }
 
 a, NavLink {
@@ -47,37 +75,33 @@ a, NavLink {
   color: var(--copy);
 }
 
+.active {
+  color: var(--copy);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--copy);
+}
+
+.arrow, .link {
+  color: var(--copy);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--copy);
+}
+
 .link:hover {
-  color: var(--copy);
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--copy);
-}
-
-.active{
-  color: var(--copy);
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--copy);
-}
-
-.arrows {
-  fill: none;
-  stroke:  var(--copy);
-  stroke-miterlimit: 10;
-  stroke-width: 15px;
-}
-
-.arrow {
-  max-width: 30px;
-  display: inline-block;
-  margin: 0;
+  border-bottom: 1px dashed var(--copy);
+  cursor: alias;
 }
 
 @media screen and (max-width: 800px){
 
   .desktop {
     display: none;
+  }
+
+  .Containter {
+    margin: 10px 10px 10px  10px;
   }
 
   .mobile {
@@ -93,7 +117,7 @@ a, NavLink {
   }
 
   h3 {
-  font-size: 1.25em;
+  font-size: .8em;
   }
 
   .MainWindow {

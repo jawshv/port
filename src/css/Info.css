@@ -13,7 +13,6 @@
 }
 
 .Info {
-  margin: 54px 0px 0px 0px;
   z-index: 3;
   max-width: calc(100% - 20px);
   flex-direction: row;

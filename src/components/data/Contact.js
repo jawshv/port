@@ -7,10 +7,6 @@ const Contact = [
     offsitewords: 'email',
   },
   {
-    offsite: 'http://badcar.bike/',
-    offsitewords: 'resume',
-  },
-  {
     offsite: 'https://twitter.com/Jawshv',
     offsitewords: 'twitter',
   },

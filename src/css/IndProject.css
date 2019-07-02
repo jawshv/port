@@ -1,10 +1,14 @@
 .Section {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .sectionHeader {
-  margin-top: 120px;
-  margin-bottom: 30px;
+  margin: 100px 0 30px 0;
+  text-transform: uppercase;
+  color: var(--copy);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--copy);
 }
 
 .ProjectHeader {
@@ -16,11 +20,20 @@
 
 .IndProject {
   width: 65%;
+  margin-top: -60px;
+}
+
+.imgcontain {
+  margin: 0px 0px 30px 0px ;
 }
 
 .imgfull {
-  width: calc(100% - 80px);
-  padding: 40px 0px 40px 0px ;
+  width: calc(100%);
+  margin-bottom: 10px;
+}
+
+.caption {
+  margin-bottom: 30px;
 }
 
 .footer {
@@ -33,9 +46,6 @@
 
 
 h3 .active{
-  color: var(--copy);
-  -webkit-text-fill-color: var(--copy);
-  -webkit-text-stroke-width: 0px;
   text-decoration: line-through;
       flex-direction: row;
 }
@@ -44,15 +54,19 @@ h3 .active{
   .IndProject {
     width: 100%;
     max-width: 100%;
+    margin-top: 20px;
   }
 
   .imgfull {
     width: 100%;
-    margin: 40px 0px 40px 0px;
   }
 
   .ProjectHeader {
     display: none;
+  }
+
+  .Section {
+    margin-top: 20px;
   }
 
   .footer {

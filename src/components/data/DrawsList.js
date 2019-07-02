@@ -1,33 +1,38 @@
 const DrawsList = [
 
 {
-  link: '/mars',
-  name: 'draws draws draws',
-  cover: './media/la2050.png',
-  img1: './media/la2050.png',
-  img2: './media/la2050.png',
+  link: '/Unincorporated',
+  name: 'Unincorporated (working)',
+  cover: './media/draws/train.jpg',
+  cover: './media/draws/train.jpg',
 },
 {
-  link: '/hey',
-  cover: './media/la2050.png',
-  name: 'meeble'
+  link: '/prints',
+  name: 'Misc. Prints',
+  cover: './media/draws/posters.jpg',
 },
 {
-  link: '/try',
-  cover: './media/la2050.png',
-  name: 'heyo heyjfifjfij rsssssssssssij firfjiji fjrijirjf fjirfj'
-},
-
-{
-  link: '/welp',
-  cover: './media/la2050.png',
-  name: 'heyo'
+  link: '/doctor',
+  cover: './media/draws/sditw.jpg',
+  name: 'The Smallest Doctor in the World'
 },
 
 {
-  link: '/welp',
-  cover: './media/la2050.png',
-  name: 'heyo'
+  link: '/space',
+  cover: './media/draws/space.jpg',
+  name: 'Navigation'
+},
+
+{
+  link: '/gifs',
+  cover: './media/draws/hand.gif',
+  name: 'Warm-Up Animation'
+},
+
+{
+  link: '/drinks',
+  cover: './media/draws/mixed drink.jpg',
+  name: 'Mixed Drink in 14 steps'
 },
 ]
 
