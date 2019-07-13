@@ -4,12 +4,3 @@
   --bg: white;
   --copy: black;
 }
-
-body {
-  margin: 0;
-  font-family: nimbus-sans-extended, sans-serif;
-}
-
-code {
-  font-family: nimbus-sans-extended, sans-serif;
-}

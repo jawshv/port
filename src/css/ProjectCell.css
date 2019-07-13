@@ -60,8 +60,9 @@
 
 .plant {
   position: fixed;
-  left: 40px;
-  width: 50%;
+  right: 50%;
+  width: 40%;
+  max-width: calc(50vw);
   z-index: -1;
 }
 

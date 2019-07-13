@@ -28,7 +28,6 @@ body {
   background: var(--bg);
   display: flex;
   height: 100%;
-  max-width: 2500px;
   margin: auto;
 }
 
@@ -141,4 +140,19 @@ a, NavLink {
     display: flex;
   }
 
+}
+
+@media screen and (min-width: 1900px){
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2, h4 {
+  font-size: 4em;
+  }
+
+  h3 {
+  font-size: 1.5em;
+  }
 }

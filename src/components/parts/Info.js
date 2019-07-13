@@ -21,12 +21,12 @@ class Info extends Component {
                   </div>
                 )}
               </div>
-
               <div className='me'>
-              <h3>Hello</h3>
-              {Contact.map((e) => (e.me) && <h2>{e.me}</h2>)}
+                <h3>Hello</h3>
+                {Contact.map((e) =>
+                  (e.me) && <h2>{e.me}</h2>)}
+                <h2><br/>This site was built in react. Feel free to <a className="link" target="_blank" href="https://github.com/jawshv">take</a> anything you like. </h2>
               </div>
-
             </div>
           </div>
 
