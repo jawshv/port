@@ -1,9 +1,9 @@
 const Contact = [
   {
-    me: 'I’m Josh Vredevoogd, a designer and illustrator with a background in video production. I probably care too much about bus lanes and not enough about sports. Currently based in LA.',
+    me: 'I’m Josh Vredevoogd, a designer and illustrator with a background in video production. I probably care too much about bus lanes and not enough about sports.',
   },
   {
-    web: 'This site was built in React. Feel free to borrow anything you like.',
+    me: '🌎  Currently based in LA @ Hive',
   },
   {
     offsite: 'mailto:joshkv@gmail.com',

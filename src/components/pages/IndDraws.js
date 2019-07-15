@@ -11,17 +11,22 @@ class IndDraws extends Component {
     const { match, location, history } = this.props
 
     return (
-      <div>
-      {DrawsList.filter(e => e.link === location.pathname) .map((x,id) =>
+      <div className="indydraw">
+      {DrawsList.filter(e => e.link === location.pathname) .map((x) =>
                    <div className="Section">
                        <div className="ProjectText">
-                         <h3>{id+1}</h3>
                          <h3>{x.name}</h3>
                         </div>
-                         <img className="imgfull" src={x.img1}/>
+                         <img src={x.img1}/>
+                         <img src={x.img2}/>
+                         <img src={x.img3}/>
+                         <img src={x.img4}/>
+                         <img src={x.img5}/>
+                         <img src={x.img6}/>
+                         <img src={x.img7}/>
+                         <img src={x.img8}/>
                        </div>
                )}
-               <h1 className="marquee">COMING SOON</h1>
       </div>
     );
 

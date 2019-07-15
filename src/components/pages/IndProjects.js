@@ -31,7 +31,7 @@ class IndProjects extends Component {
                     {(e.Sections) &&
                       e.Sections.map((Sections,id) =>
                         <div className="Section">
-                        {(Sections.header) && <h2 className="sectionHeader"> {Sections.header} </h2>}
+                        {(Sections.header) && <h2 className="sectionHeader"> / {Sections.header} </h2>}
                         {(Sections.img) && <div className="imgcontain"> <img className="imgfull" src={Sections.img} /><h3>{Sections.caption}</h3></div>}
                         <h2>
                           {(Sections.words) && <span className="words"> {Sections.words} </span>}

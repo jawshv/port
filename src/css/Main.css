@@ -45,6 +45,11 @@ body {
   width: calc(100% - 40px);
 }
 
+.Section img {
+max-width: 50%;
+margin: 10px;
+}
+
 @keyframes marquee {
     0%   { text-indent: 100vw }
     100% { text-indent: -200vw }
