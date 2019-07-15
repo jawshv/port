@@ -45,7 +45,7 @@ body {
   width: calc(100% - 40px);
 }
 
-.Section img {
+.indydraw .Section img {
 max-width: 50%;
 margin: 10px;
 }

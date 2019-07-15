@@ -86,7 +86,7 @@ const ProjectList = [
       },
       {
         img: './media/hive-def.jpg',
-        caption: 'Magazine Print Ad',
+        caption: 'UK Magazine Print Ad',
       },
       {
         img: './media/hive-sxsw.jpg',
