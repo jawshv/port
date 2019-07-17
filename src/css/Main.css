@@ -46,8 +46,9 @@ body {
 }
 
 .indydraw .Section img {
-max-width: 50%;
-margin: 10px;
+max-width: calc(50% - 20px);
+display: block;
+margin: 30px 30px 30px 0px;
 }
 
 @keyframes marquee {
@@ -132,6 +133,12 @@ a, NavLink {
 
   .arrow {
   max-width: 18px;
+  }
+
+  .indydraw .Section img {
+  max-width: calc(100%);
+  display: block;
+  margin: 30px 30px 30px 0px;
   }
 }
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import style from '../../css/Header.css';
 import ReactSVG from 'react-svg'
+import ReactGA from 'react-ga';
 
 class Header extends Component {
 

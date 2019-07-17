@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DrawsList from '../data/DrawsList';
 import style from '../../css/ProjectCell.css';
+import { NavLink } from 'react-router-dom';
 import { Router, Link, Route, withRouter}  from 'react-router-dom';
 
 
@@ -27,6 +28,11 @@ class IndDraws extends Component {
                          <img src={x.img8}/>
                        </div>
                )}
+             <h3 className="footer">
+               {DrawsList.map((e,id) =>
+                 <span><NavLink to={e.link}>{e.name}</NavLink></span>
+               )}
+             </h3>
       </div>
     );
 
