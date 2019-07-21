@@ -2,10 +2,12 @@
   width: 100%;
 }
 
+::-webkit-scrollbar { width: 0 !important }
+
 h2, h4 {
   margin: 0px;
   color: var(--copy);
-  font-size: 2.5em;
+  font-size: 2.3em;
   font-family: nimbus-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -45,30 +47,19 @@ body {
   width: calc(100% - 40px);
 }
 
+.indydraw {
+  width: 100%;
+}
+
+.drawbox {
+  display: flex;
+}
+
 .indydraw .Section img {
-max-width: calc(50% - 20px);
-display: block;
-margin: 30px 30px 30px 0px;
-}
-
-@keyframes marquee {
-    0%   { text-indent: 100vw }
-    100% { text-indent: -200vw }
-}
-
-.marquee {
-  width: calc(100vw - 80px);
-  margin: 0px;
-  color: var(--bg);
-  background-color: var(--copy);
-  font-size: 25em;
-  font-family: nimbus-sans, sans-serif;
-  font-weight: 400;
-  overflow: hidden;
-  white-space: nowrap;
-  box-sizing: border-box;
-  animation: marquee 10s linear infinite;
-  border-radius: 6px;
+  margin: 30px 30px 30px 0px;
+  width: auto;
+  max-height: 650px;
+  display: flex;
 }
 
 img {
@@ -87,16 +78,23 @@ a, NavLink {
   -webkit-text-stroke-color: var(--copy);
 }
 
-.arrow, .link {
+.arrow, h2 .link {
   color: var(--copy);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--copy);
 }
 
-.link:hover {
+h2 .link:hover {
   border-bottom: 1px dashed var(--copy);
+}
+
+.link:hover {
   cursor: alias;
+}
+
+.footer span {
+  margin: 0px 5px 0px 5px;
 }
 
 @media screen and (max-width: 800px){
@@ -137,7 +135,6 @@ a, NavLink {
 
   .indydraw .Section img {
   max-width: calc(100%);
-  display: block;
   margin: 30px 30px 30px 0px;
   }
 }

@@ -18,19 +18,17 @@ class IndDraws extends Component {
                        <div className="ProjectText">
                          <h3>{x.name}</h3>
                         </div>
-                         <img src={x.img1}/>
-                         <img src={x.img2}/>
-                         <img src={x.img3}/>
-                         <img src={x.img4}/>
-                         <img src={x.img5}/>
-                         <img src={x.img6}/>
-                         <img src={x.img7}/>
-                         <img src={x.img8}/>
-                       </div>
+                        {(x.sections) &&
+                          x.sections.map((sections,id) =>
+                            <div className="drawbox">
+                            {(sections.img) && <a target="_blank" href={sections.img} ><img className="imgfull" src={sections.img} /></a>}
+                            </div>
+                       )}
+                      </div>
                )}
              <h3 className="footer">
                {DrawsList.map((e,id) =>
-                 <span><NavLink to={e.link}>{e.name}</NavLink></span>
+                <span><NavLink to={e.link}> {id+1}.{e.name}</NavLink></span>
                )}
              </h3>
       </div>

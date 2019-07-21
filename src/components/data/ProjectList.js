@@ -3,7 +3,7 @@ const ProjectList = [
 
   {
     link: '/hive',
-    image: './media/hive-ad.gif',
+    image: './media/hive/hive-ad.gif',
     title: 'HIVE LIGHTING',
     year: '2019',
     tag: 'As the In-House Designer I created web and print marketing material working to establish a consistent brand identity.',
@@ -20,11 +20,11 @@ const ProjectList = [
         words: 'Even with what was originally a solid font/logomark foundation, the design of marketing material at Hive had been scattered between different eras and designers at the company. Work had been created for trade shows, demos, specific product launches, and in-house needs without consideration of a single identity.',
       },
       {
-        img: './media/hive-identity1.jpg',
+        img: './media/hive/hive-identity1.jpg',
         caption: 'Building a common language 1',
       },
       {
-        img: './media/hive-identity2.jpg',
+        img: './media/hive/hive-identity2.jpg',
         caption: 'Building a common language 2',
       },
       {
@@ -33,24 +33,24 @@ const ProjectList = [
       },
       {
         words: 'Product sheets are often customers first introduction to a fixture, and previous product sheets were overwhelming, with an unclear text hierarchy, graphics that clashed against each other, and no space for reader’s eyes to rest. Space is precious, and the depth of material needs to satisfy both a first-year photographer and a legacy cinematographer. ',
-        img: './media/hive-specall.jpg',
+        img: './media/hive/hive-specall.jpg',
         caption: 'Redesigned Spec Sheets',
       },
       {
-        img: './media/hive-oldspec.jpg',
+        img: './media/hive/hive-oldspec.jpg',
         caption: 'Original Spec Sheets',
       },
       {
-        img: './media/hive-newspec.jpg',
+        img: './media/hive/hive-newspec.jpg',
         caption: 'New Spec Sheets',
         words: 'A large kinetic image made the form factor obvious, and a clear text hierarchy made scanning easy. One of my goals was to use clarity in graphics to help bridge knowledge-base gaps. Helping increase inexperienced users understanding of color rendering/gamuts, the additive properties of light, and the wide variety of optical modifiers available to the consumer. ',
       },
       {
-        img: './media/hive-letterhead.jpg',
+        img: './media/hive/hive-letterhead.jpg',
         caption: 'Redesigned Letterhead',
       },
       {
-        img: './media/hive-bcards.jpg',
+        img: './media/hive/hive-bcards.jpg',
         caption: 'Redesigned Business Cards',
       },
       {
@@ -58,12 +58,12 @@ const ProjectList = [
         words: 'Hivelighting.com had rarely been updated since the creation of the website. This was becoming especially problematic as Hive pivoted product lines from Plasma heads to an entire family of LED fixtures with numerous accessories, firmware updates, and a constantly changing product manual.',
       },
       {
-        img: './media/hive-oldweb.jpg',
+        img: './media/hive/hive-oldweb.jpg',
         caption: 'Original Homepage',
         words: 'Large images without any accompanying information acted as funnels (good) but had poor click-through (bad). This page was the first thing 46.94% of customers saw and needed a redesign.',
       },
       {
-        img: './media/hive-newweb.jpg',
+        img: './media/hive/hive-newweb.jpg',
         caption: 'Redesigned Homepage',
         words: 'The new front page is built out of static image cells. These are modular Wordpress fields to be easily replaced and rearranged. Not only do they better showcase products, but also specific marketing pitches, upcoming events, firmware updates, and are more accepting to AB testing. ',
       },
@@ -82,24 +82,24 @@ const ProjectList = [
         caption: 'Product Tutorial',
       },
       {
-        img: './media/hive-social.jpg',
+        img: './media/hive/hive-social.jpg',
       },
       {
-        img: './media/hive-def.jpg',
+        img: './media/hive/hive-def.jpg',
         caption: 'UK Magazine Print Ad',
       },
       {
-        img: './media/hive-sxsw.jpg',
+        img: './media/hive/hive-sxsw.jpg',
       },
       {
-        img: './media/hive-identity3.jpg',
+        img: './media/hive/hive-identity3.jpg',
       },
 
     ]
   },
 ///////////////
   {
-    image: './media/duo-main.gif',
+    image: './media/duo/duo-main.gif',
     title: 'THE DUO',
     year: '2017',
     tag: 'was a music video production project with Anissa Amalia working from concept to render.',
@@ -145,7 +145,7 @@ const ProjectList = [
   },
 ///////////////
   {
-    image: './media/parking-county.jpg',
+    image: './media/parking/parking-county.jpg',
     title: 'NO PARKING HERE',
     year: '2019',
     icon: '../../icons/parking.svg',
@@ -163,20 +163,20 @@ const ProjectList = [
       words: 'As bad as finding parking in LA can feel, we have enough of it to cover Manhattan 7.5x times. Every year billions of dollars are spent building parking spaces instead of homes.',
     },
     {
-      img: './media/parking-chart.jpg',
+      img: './media/parking/parking-chart.jpg',
       words: 'This project is a simple static HTML/CSS page. While it works (and has the benefit of being barebones lightweight), a second iteration would probably include a lean javascript framework to avoid editing content and markup in the same document.',
     },
     {
-      img: './media/parking-garage.jpg',
+      img: './media/parking/parking-garage.jpg',
     },
     {
-      img: './media/parking-union.jpg',
+      img: './media/parking/parking-union.jpg',
     }
   ]
   },
 ///////////////
   {
-    image: './media/2050-main.jpg',
+    image: './media/2050/2050-main.jpg',
     title: 'LA METRO 2050',
     year: '2019',
     tag: 'is a hypothetical subway map showing what kind of capital projects it would take to transform modeshare in Los Angeles.',
@@ -185,30 +185,30 @@ const ProjectList = [
     Sections: [
 
     {
-      offsite: './media/2050-full.jpg',
+      offsite: './media/2050/2050-full.jpg',
       offsitewords: 'LA 2050 Metro Network Map',
       words: 'This',
       words2: 'is a window into a Los Angeles no longer dependant on cars. With its reputation for gridlock via internal combustion engine, LA is spending more than any city except for NYC and Seattle annually on transit expansion. How will this change the way people get around?',
     },
     {
-      img: './media/2050-CU.jpg',
+      img: './media/2050/2050-CU.jpg',
       words: 'Showing Los Angeles in 2050 was a balancing act between optimistic and realistic. It meant designing a system that followed both Metro’s current long range plans and the potential dense corridors /destinations that allow for a complete transit grid.',
     },
     {
-      img: './media/2050-projects.jpg',
+      img: './media/2050/2050-projects.jpg',
       words: 'Requiring some $40B for construction, it would increase Metro’s annual transit expansion budget by around 75%. However, looking at population served per dollar spent, Metro’s capital project spending would still be 1/3th of Sound Transit’s, and under the budgets of BART, WMATA and the MTA. ',
     },
     {
-      img: './media/2050-base.jpg',
+      img: './media/2050/2050-base.jpg',
       words: 'At 321 miles of rail, Los Angeles would have the second largest urban rail network in America, and one of the largest in the world. More than 4 million people a day will get around via busses and trains, and car-mode share will be down below 50%. However, even assuming heavier use, it would still under-perform most systems in passengers per mile. LA would have a system length similar to 2018 Seoul and Paris, but with 1/5th and 1/2 the riders respectively. LA’s riders-per-mile would more closely align with the current Madrid or Chicago metro systems.',
     },
     {
-      img: './media/2050-main.jpg',    },
+      img: './media/2050/2050-main.jpg',    },
   ]
   },
 ///////////////
   {
-    image: './media/aat-main.jpg',
+    image: './media/aat/aat-main.jpg',
     title: 'AAT',
     year: '2017',
     tag: 'was a collaborative project created with Maimoona Rahim documenting different work created in response to the 2016 election.',
@@ -222,33 +222,33 @@ const ProjectList = [
       words2: ' documenting different work and thoughts created in response to the 2016 election. Together we curated and designed a quarterly zine and held regular art shows.',
     },
     {
-      img: './media/aat-black2.jpg',
+      img: './media/aat/aat-black2.jpg',
     },
     {
-      img: './media/aat-black.jpg',
+      img: './media/aat/aat-black.jpg',
     },
     {
-      img: './media/aat-bcards.jpg',
+      img: './media/aat/aat-bcards.jpg',
     },
     {
-      img: './media/aat-black3.jpg',
+      img: './media/aat/aat-black3.jpg',
     },
     {
-      img: './media/aat-stickers.jpg',
+      img: './media/aat/aat-stickers.jpg',
     },
     {
-      offsite: './media/aat-vol1.pdf',
+      offsite: './media/aat/aat-vol1.pdf',
       offsitewords: 'AAT Vol. 1 (pdf)',
     },
     {
-      offsite: './media/aat-vol2.pdf',
+      offsite: './media/aat/aat-vol2.pdf',
       offsitewords: 'AAT Vol. 2 (pdf)',
     },
   ]
   },
   ///////////////
     {
-      image: './media/misc.gif',
+      image: './media/misc/misc.gif',
       title: 'MISC.',
       year: '♺',
       tag: 'This rolling page houses smaller projects, logos, unused designs, and explorations.',
@@ -256,27 +256,27 @@ const ProjectList = [
       position: '',
       Sections: [
         {
-          img: './media/misc-rsp12.jpg',
+          img: './media/misc/misc-rsp12.jpg',
           caption: 'RideSharePro Logo',
         },
         {
-          img: './media/misc-rsp13.jpg',
+          img: './media/misc/misc-rsp13.jpg',
           caption: 'RideSharePro Icon Build',
         },
         {
-          img: './media/misc-rsp14.jpg',
+          img: './media/misc/misc-rsp14.jpg',
           caption: 'RideSharePro Logo Vert',
         },
       {
-        img: './media/misc-logo4.jpg',
+        img: './media/misc/misc-logo4.jpg',
         caption: 'Roach Candy Logo',
       },
       {
-        img: './media/misc-logo2.jpg',
+        img: './media/misc/misc-logo2.jpg',
         caption: 'Unused PCILab logos',
       },
       {
-        img: './media/misc-logo3.jpg',
+        img: './media/misc/misc-logo3.jpg',
         caption: 'Chosen PCILab logo',
       },
     ]

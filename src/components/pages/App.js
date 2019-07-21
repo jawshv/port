@@ -23,7 +23,7 @@ class App extends Component {
       <Header/>
 
       <div className="MainWindow">
-          <Route exact path="/Info" component={Info} />
+          <Route exact path="/info" component={Info} />
           <Route exact path="/" component={ProjectCell} />
           <Route path="/draws" component={DrawsCell} />
           {ProjectList.map((route, index) => (

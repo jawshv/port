@@ -46,7 +46,7 @@ class IndProjects extends Component {
                )}
           <h3 className="footer">
             {ProjectList.map((e,id) =>
-              <span><NavLink to={e.link}>{e.title}</NavLink></span>
+              <span><NavLink to={e.link}> {id+1}.{e.title}</NavLink></span>
             )}
           </h3>
       </div>

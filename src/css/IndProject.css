@@ -40,7 +40,7 @@
 
 .footer {
   padding: 80px 0px 0px 0px ;
-  width: 64%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

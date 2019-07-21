@@ -1,27 +1,31 @@
 const Contact = [
   {
-    me: 'I’m Josh Vredevoogd, a designer and illustrator with a background in video production. I probably care too much about bus lanes and not enough about sports.',
+    me: 'Hi I’m josh vredevoogd, a designer and illustrator with a background in video production. I probably care too much about bike lanes and not enough about sports.',
   },
   {
-    me: '🌎  Currently based in LA @ Hive',
+    where: '🌎  Currently based in LA @ HIVE',
   },
   {
-    offsite: 'mailto:joshkv@gmail.com',
-    offsitewords: 'email',
+    llink: 'mailto:joshkv@gmail.com',
+    l_lname: 'email',
+    rlink: 'https://www.instagram.com/jawshkv/',
+    l_rname: 'instagram',
   },
   {
-    offsite: 'https://twitter.com/Jawshv',
-    offsitewords: 'twitter',
+    llink: 'https://twitter.com/Jawshv',
+    l_lname: 'twitter',
+    rlink: 'http://badcar.bike/',
+    l_rname: 'badcar.bike',
   },
   {
-    offsite: 'https://www.instagram.com/jawshkv/',
-    offsitewords: 'instagram',
+    lname: 'B. 1996 ',
+    rname: '♌',
   },
   {
-    offsite: 'http://badcar.bike/',
-    offsitewords: 'badcar.bike',
+    git: 'https://github.com/jawshv',
+    site: 'This site was built in react, feel free to take anything you like.',
+    update: 'July 21 2019'
   },
-
 
 ]
 export default Contact
