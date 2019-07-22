@@ -2,7 +2,8 @@
   width: 100%;
 }
 
-::-webkit-scrollbar { width: 0 !important }
+::-webkit-scrollbar { width: 0 }
+
 
 h2, h4 {
   margin: 0px;
