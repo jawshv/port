@@ -1,7 +1,24 @@
 const DrawsList = [
 
+  {
+    link: '/2019-prints',
+    name: '2019 Prints',
+    cover: './media/draws/19-cov.jpg',
+    sections: [
+      {
+      img: './media/draws/19-drinks.jpg',
+      },
+      {
+      img: './media/draws/19-bikers.jpg',
+      },
+      {
+      img: './media/draws/19-red.jpg',
+      },
+    ]
+  },
+
 {
-  link: '/prints',
+  link: '/2018-prints',
   name: '2018 Prints',
   cover: './media/draws/posters.jpg',
   sections: [
@@ -25,7 +42,7 @@ const DrawsList = [
 
 {
   link: '/sights',
-  name: 'Sight Seeing (working)',
+  name: 'Sight Seeing',
   cover: './media/draws/sights-cov.jpg',
   sections: [
     {

@@ -14,7 +14,7 @@ class DrawsCell extends Component {
                 <NavLink to={e.link}>
                <img className='DrawImg' src={e.cover}/>
                <div className='Drawtxt'>
-                  <h3>{i+1}</h3>
+                  <h3>{i+1}.</h3>
                  <h3 className='title'>{e.name}</h3>
                </div>
               </NavLink>

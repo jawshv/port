@@ -35,21 +35,21 @@
 }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1700px){
+@media screen and (min-width: 1100px) and (max-width: 1700px){
 
 .DrawCell {
     width: calc(33.3% - 40px);
 }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1200px){
+@media screen and (min-width: 800px) and (max-width: 1100px){
 
 .DrawCell {
     width:  calc(50% - 40px);
 }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 800px){
   .DrawCell {
       width: calc(100% - 40px);
   }

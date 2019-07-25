@@ -16,7 +16,7 @@
 .ProjectHeader {
   position: fixed;
   display: flex;
-  width: calc(30%-30px);
+  width: calc(30% - 60px);
   margin: 0 30px 0 70%;
 }
 
