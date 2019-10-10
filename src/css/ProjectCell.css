@@ -35,7 +35,7 @@
 
 .ProjectSoon, .ProjectProcess {
   font-family: input-sans, sans-serif;
-    background-color: var(--brown);
+  background-color: var(--brown);
   font-weight: 400;
   font-style: normal;
   color: var(--eternalblack);
@@ -58,6 +58,12 @@
 }
 
 .titlelink a:hover {
+  color: grey;
+  transition: .3s;
+}
+
+
+.titlelink a .active {
   color: grey;
   transition: .3s;
 }

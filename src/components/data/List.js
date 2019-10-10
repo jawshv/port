@@ -70,7 +70,7 @@ const
 
     {
       title: 'Noparkinghere.com',
-      link: '/',
+      outlink: 'https://noparkinghere.com/',
       process: 'yes',
       image: './media/parking/county.jpg',
       role: 'Site built to explore the negative externalities of parking land use in LA',
@@ -132,7 +132,7 @@ const
     // OTHER
       {
         emoji: '🌿',
-        head: 'some other projects ect. ect. ect.',
+        head: 'other projects ect. ect. ect.',
       },
       {
         title: 'AAT',
@@ -168,7 +168,7 @@ const
         title: 'Logo Designs',
         link: '/',
         image: './media/misc/logo-15.jpg',
-        role: 'Just logos.' ,
+        role: 'Miscellaneous logos I\'ve made between 2017-2019.' ,
         Sections: [
           {
           },]
