@@ -1,37 +1,73 @@
 #root {
   width: 100%;
+  --green: #56f0a6;
+  --brown: #ffe957;
+  --eternalblack: black;
 }
 
 ::-webkit-scrollbar { width: 0 }
 
-
-h2, h4 {
+h1 {
   margin: 0px;
   color: var(--copy);
-  font-size: 2.3em;
+  font-size: 5em;
+  line-height: 1em;
   font-family: nimbus-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
+  cursor: default;
+}
+
+h1 a {
+  color: grey;
+  transition: .4s;
+}
+
+h1 a:hover {
+  color: var(--copy);
+  transition: .4s;
+}
+
+h2 {
+  margin: 0px;
+  color: var(--copy);
+  font-size: 1.5em;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    cursor: default;
 }
 
 h3 {
   margin: 0px;
   color: var(--copy);
-  font-size: 1.15em;
+  font-size: 1.1em;
   font-family: input-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
+    cursor: default;
+}
+
+h4 {
+  margin: 0px;
+  color: var(--copy);
+  font-size: .65em;
+  font-family: input-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    cursor: default;
 }
 
 body {
   width: 100% ;
   font-weight: 400;
   font-style: normal;
-  margin: 10px;
+  margin: 10px 0px 10px 0px;
   background: var(--bg);
   display: flex;
   height: 100%;
   margin: auto;
+  box-sizing: content-box;
 }
 
 .Containter {
@@ -43,7 +79,6 @@ body {
 
 .MainWindow {
   display: flex;
-  padding-top: 60px;
   margin: 30px;
   width: calc(100% - 40px);
 }
@@ -72,33 +107,37 @@ a, NavLink {
   color: var(--copy);
 }
 
-.active {
-  color: var(--copy);
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--copy);
-}
-
 .arrow, h2 .link {
+  padding: 0px 11px 2px 11px;
+  border: 1px solid var(--copy);
   color: var(--copy);
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--copy);
+  transition: 0.3s linear;
+   border-radius: 30px;
 }
 
-h2 .link:hover {
-  border-bottom: 1px dashed var(--copy);
-}
-
-.link:hover {
-  cursor: alias;
-}
 
 .footer span {
-  margin: 0px 5px 0px 5px;
+  margin: 5px 5px 5px 5px;
+  width: max-content;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 700px){
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  h4 {
+    font-size: .6em;
+  }
 
   .desktop {
     display: none;
@@ -110,18 +149,6 @@ h2 .link:hover {
 
   .mobile {
     display: flex;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
-  h2, h4 {
-  font-size: 2em;
-  }
-
-  h3 {
-  font-size: .8em;
   }
 
   .MainWindow {
@@ -155,14 +182,19 @@ h2 .link:hover {
 @media screen and (min-width: 1900px){
 
   h1 {
-    font-size: 4em;
+    font-size: 5em;
   }
 
-  h2, h4 {
-  font-size: 4em;
+  h2 {
+    font-size: 3em;
   }
 
   h3 {
-  font-size: 1.5em;
+    font-size: 1.5em;
   }
+
+  h4 {
+    font-size: 1em;
+  }
+
 }

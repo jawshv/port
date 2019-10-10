@@ -23,21 +23,12 @@ class App extends Component {
       <Header/>
 
       <div className="MainWindow">
-          <Route exact path="/info" component={Info} />
           <Route exact path="/" component={ProjectCell} />
-          <Route path="/draws" component={DrawsCell} />
           {ProjectList.map((route, index) => (
             <Route
               key={index}
               path={route.link}
               render={(routeProps) => <IndProjects {...routeProps} />}
-            />
-          ))}
-          {DrawsList.map((route, index) => (
-            <Route
-              key={index+100}
-              path={route.link}
-              render={(routeProps) => <IndDraws {...routeProps} />}
             />
           ))}
       </div>

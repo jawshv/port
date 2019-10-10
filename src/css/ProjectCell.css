@@ -1,139 +1,147 @@
 .Projects {
-  width: 50%;
-  margin-left: calc(50% + 10px);
+  max-width: 2000px;
+  margin-top: -15px;
 }
+
+.ProjectMill {
+  width: calc(100% + 20px);
+  margin-left: -10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.ProjectHead{
+  width: 70vw;
+  margin: 130px 30px 30px 30px;
+}
+
+.ProjectHead a:hover{
+  cursor: alias;
+}
+
+.ProjectBasket{
+  margin: 30px;
+  border-top: 1px solid var(--copy);
+}
+
 
 .ProjectCell{
-  display: inline;
-  margin: 0;
+  max-width: calc(100%);
+  transition: 0.3s linear;
+  width: 100%;
+  padding-top: 10px;
 }
 
-
-.ProjectBasket:hover .ProjectTitle{
-  border-bottom: 1px dashed var(--copy);
-}
-
-.ProjectHead {
-  display: inline-flex;
-  white-space: normal;
-  word-wrap: normal;
-  word-break: normal;
-}
-
-.ProjectBody h2 {
-  display: inline-block;
-}
-
-.year {
-  border: 1px solid var(--copy);
-  border-radius: 50%;
-  padding: .25em 1em;
-  margin: 10px;
-  color: var(--copy);
-  font-size: 20px;
+.ProjectSoon, .ProjectProcess {
   font-family: input-sans, sans-serif;
+    background-color: var(--brown);
   font-weight: 400;
-  vertical-align: middle;
+  font-style: normal;
+  color: var(--eternalblack);
+  white-space: nowrap;
+  padding: 8px 12px 8px 12px;
+  border-radius: 6px;
+  margin: 0px 0px 0px 5px;
+  height: max-content;
+}
+
+.ProjectProcess {
+  background-color: var(--green);
+}
+
+.Projecttitle {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.titlelink a:hover {
+  color: grey;
+  transition: .3s;
+}
+
+.titlelink a {
+  color: var(--copy);
+  transition: .2s;
+}
+
+.out:hover {
+cursor: alias;
+}
+
+.Projectheader {
+  display: flex;
+  margin-bottom: 30px;
+  color: grey;
+}
+
+.into {
+  width: 50%;
+  padding-bottom: 20px;
+  padding: 15px;
 }
 
 .imgwindow {
-  display: none;
-  position: fixed;
-  overflow: hidden;
-  z-index: -1;
-  left: 40px;
-  bottom: 30px;
-  top: 110px;
-  border-radius: 10px;
+  min-width: 100%;
+}
+
+.ProjectCell a {
+  min-width: 100%;
 }
 
 .ProjectImg {
-  display: flex;
-  margin: auto;
-  transition: opacity .6s linear;
-  width: auto;
-  max-height: 100%;
-  min-height: 100%;
+max-width: 100%;
+min-width: 100%;
+height: auto;
 }
 
-.plant {
-  position: fixed;
-  margin: auto;
-  left: 40px;
-  top: calc(50% - 60px);
-  width: calc(50% - 60px);
-  z-index: -1;
+@media screen and (min-width: 1500px){
+
+.ProjectSoon, .ProjectProcess {
+  margin: 0px 0px 0px 5px;
 }
 
-.checkit {
-  border: 1px dashed var(--copy);
-  padding: 10px;
-  width: 8em;
-  margin: auto;
-  text-align: center;;
+.ProjectBasket {
+    width: calc(33.3% - 60px);
 }
 
-.ProjectBasket:hover .plant {
-  display: none;
+.fullbasket {
+  width: calc(100% - 60px);
+}
 }
 
-.ProjectBasket:hover .imgwindow {
-  display: inline-flex;
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+
+.ProjectBasket {
+    width: calc(33.3% - 60px);
 }
 
-.ProjectTitle {
-  color: var(--copy);
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--copy);
+.fullbasket {
+  width: calc(100% - 60px);
+}
 }
 
-@media screen and (max-width: 1030px){
+@media screen and (min-width: 700px) and (max-width: 1200px){
 
-  .imgwindow {
-    position: relative;
-    display: block;
-    width: 100%;
-    margin: 0;
-    right: auto;
-    left: auto;
-    bottom: auto;
-    top: auto;
+.ProjectBasket {
+    width:  calc(50% - 60px);
+}
+
+.fullbasket {
+  width: calc(100% - 60px);
+}
+}
+
+@media screen and (max-width: 700px){
+  .ProjectBasket {
+      width: calc(100% - 60px);
   }
 
-  .ProjectImg {
-    opacity: 1;
-    max-width: 650px;
+
+  .ProjectSoon, .ProjectProcess {
+    padding: 8px 12px 8px 12px;
+    margin: 0px 0px 0px 0px;
   }
-
-  .ProjectBasket:hover .imgwindow {
-    display: block;
-  }
-
-  .Projects{
-    width: 100%;
-    margin: 0;
-  }
-
-  .ProjectCell{
-    margin: 20px 0 20px 0;
-    display: block;
-  }
-
-  .plant {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1030px){
-
-
-}
-
-@media screen and (max-width: 800px){
-
-  .ProjectImg {
-    max-width: 100%;
-  }
-
 }

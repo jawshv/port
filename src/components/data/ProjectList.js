@@ -7,7 +7,7 @@ const ProjectList = [
     title: 'HIVE LIGHTING',
     year: '2019',
     tag: 'As the In-House Designer I created web and print marketing material working to establish a consistent brand identity.',
-    position: 'In-House Designer',
+    position: 'Designer',
     Sections: [
       {
         words: 'As the In-House Designer at',
@@ -99,7 +99,7 @@ const ProjectList = [
   },
 ///////////////
   {
-    image: './media/duo/duo-main.gif',
+    image: './media/duo/duo-main.jpg',
     title: 'THE DUO',
     year: '2017',
     tag: 'was a music video production project with Anissa Amalia working from concept to render.',
@@ -151,7 +151,7 @@ const ProjectList = [
     icon: '../../icons/parking.svg',
     tag: 'is a web essay looking at how current parking legislation in Los Angeles runs counter to LA’s goals re: housing crisis and the environment.',
     link: '/noparking',
-    position: 'Web / Copy',
+    position: 'Designer/Writer',
     Sections: [
 
     {
@@ -181,7 +181,7 @@ const ProjectList = [
     year: '2019',
     tag: 'is a hypothetical subway map showing what kind of capital projects it would take to transform modeshare in Los Angeles.',
     link: '/metro',
-    position: 'Transit Design',
+    position: 'Designer',
     Sections: [
 
     {
@@ -253,7 +253,7 @@ const ProjectList = [
       year: '♺',
       tag: 'This rolling page houses smaller projects, logos, unused designs, and explorations.',
       link: '/misc',
-      position: '',
+      position: 'Learning',
       Sections: [
         {
           img: './media/misc/misc-rsp12.jpg',

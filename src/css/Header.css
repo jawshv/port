@@ -1,18 +1,10 @@
 .Deskhead {
-  position: fixed;
-  width: calc(100% - 55px);
-  padding: 50px 0px 0px 25px;
-  margin-top: -30px;
-  z-index: 2;
-  /*box-shadow: 0 0 10px 10px var(--bg);
-  background-color: var(--bg);*/
+right: 60px;
+top: 30px;
+position: fixed;
+width: calc(100% - 60px);
 }
 
-.rolly{
-  display: flex;
-  width: calc(100% - 20px);
-  justify-content: space-between;
-}
 
 .active {
   color: var(--copy);
@@ -20,24 +12,12 @@
   -webkit-text-stroke-width: 0px;
 }
 
-.info:hover {
-  cursor: help;
-}
-
 .eye {
-  width: 2.5em;
+  width: 2em;
+  padding-left: 40px;
   margin-top: -6px;
 }
 
-.josh, .headleft, .headright, .HeadDraws, .HeadProjects {
-  min-width: auto;
-  display: inline-block;
-  padding: 0 5px 0 5px;
-}
-
-.headleft, .headright {
-  min-width: 150px;
-}
 
 .headright {
     display: flex;
@@ -52,63 +32,14 @@
   text-align: right;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 700px){
+
+  .headright {
+    width: 100%;
+    justify-content: space-between;
+  }
 
   .Deskhead {
-    display: none;
-  }
-
-  .rollytop, .rollybottom {
-      position: fixed;
-      z-index: 2;
-      display: flex;
-      justify-content: space-between;
-      background-color: var(--bg);
-      margin: auto;
-  }
-
-    .rollytop{
-      width: calc(100% - 20px);
-      padding: 10px 0px 0px 0px;
-      margin-top: -20px;
-      border-bottom: solid 1px var(--copy)
-    }
-
-    .rollybottom{
-      width: calc(100% - 20px);
-      padding: 0px 0px 0px 0px;
-      bottom: 0px;
-      border-top: solid 1px var(--copy)
-    }
-
-    .infobutton {
-      min-width: 0px;
-    }
-
-    .headleft:hover {
-      cursor: help;
-    }
-
-    .HeadProjects, .HeadDraws {
-      min-width: 0px;
-    }
-
-    .infobutton, .HeadDraws {
-      text-align: right;
-    }
-
-    .eye {
-      width: 1em;
-      margin-top: 0px;
-    }
-}
-
-@media screen and (min-width: 800px){
-  .Deskhead {
-    display: flex;
-  }
-
-  .Phonehead {
-    display: none;
-  }
-}
+  top: 20px;
+  right: 30px;
+}}

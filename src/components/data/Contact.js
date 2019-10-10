@@ -24,7 +24,7 @@ const Contact = [
   {
     git: 'https://github.com/jawshv',
     site: 'This site was built in react, feel free to take anything you like.',
-    update: 'July 21 2019'
+    update: 'August 4 2019'
   },
 
 ]
