@@ -13,7 +13,7 @@ const
   {
     title: 'Hivelighting.com',
     link: '/',
-    image: './media/hive/hive-web.jpg',
+    image: './media/hive/Hive-Web.jpg',
     role: 'Building & upgrading Hive\'s wordpress website',
     process: 'yes',
   },
@@ -32,7 +32,7 @@ const
 
     title: 'Misc. Marketing',
     link: '/',
-    image: './media/hive/hive-bb.jpg',
+    image: './media/hive/Hive-BB.jpg',
     role: 'Product Shots, Advertisments, Video content',
     Sections: [
       {
@@ -167,7 +167,7 @@ const
       {
         title: 'Logo Designs',
         link: '/',
-        image: './media/misc/logo-15.jpg',
+        image: './media/misc/LOGO-15.jpg',
         role: 'Miscellaneous logos I\'ve made between 2017-2019.' ,
         Sections: [
           {
