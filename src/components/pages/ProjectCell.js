@@ -15,8 +15,6 @@ class ProjectCell extends Component {
         return (
           <div className="Projects">
 
-          <h3 className="into"><a target="_blank" href="http://textfiles.com/underconstruction/">⚠️ under construction ⚠️</a></h3>
-
           <h1 className="into">hi, my name is <a>josh vredevoogd</a> welcome to my <a>wwwww</a></h1>
 
 

@@ -9,6 +9,7 @@ import DrawsCell from '../pages/DrawsCell';
 import DrawsList from '../data/DrawsList';
 import ScrollToTop from '../utilities/ScrollToTop';
 import Header from  '../parts/Header';
+import Footer from  '../parts/Footer';
 import Info from '../parts/Info';
 
 
@@ -31,6 +32,7 @@ class App extends Component {
               render={(routeProps) => <IndProjects {...routeProps} />}
             />
           ))}
+        <Footer/>
       </div>
 
     </div>

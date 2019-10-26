@@ -35,7 +35,7 @@ class Clock extends React.Component {
 
 		return (
 
-			<span className="clock">{(h < 13 ? 12 : h - 12)}:{(m < 10 ? '0' + m : m)}:{(s < 10 ? '0' + s : s)}<br/></span>
+			<span className="clock">{(h < 13 ? h : h - 12)}:{(m < 10 ? '0' + m : m)}:{(s < 10 ? '0' + s : s)}<br/></span>
 
 		)
 
