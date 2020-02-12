@@ -1,0 +1,38 @@
+.Deskhead {
+right: 60px;
+top: 30px;
+position: fixed;
+width: calc(100% - 60px);
+}
+
+.eye {
+  width: 2em;
+  padding-left: 40px;
+  margin-top: -6px;
+}
+
+
+.headright {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.HeadProjects, .HeadDraws {
+  min-width: 150px;
+}
+
+.HeadDraws {
+  text-align: right;
+}
+
+@media screen and (max-width: 700px){
+
+  .headright {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .Deskhead {
+  top: 20px;
+  right: 30px;
+}}

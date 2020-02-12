@@ -1,0 +1,95 @@
+.Section {
+  margin-top: 60px;
+}
+
+.sectionHeader {
+  margin: 200px 0 30px 0;
+  border-radius: 6px;
+  padding: 0px 15px 15px 0px;
+  text-transform: uppercase;
+  color: var(--copy);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--copy);
+}
+
+.ProjectHeader {
+  position: fixed;
+  display: flex;
+  width: calc(30% - 60px);
+  margin: 0 30px 0 70%;
+}
+
+.IndProject {
+  width: 65%;
+  margin-top: -60px;
+}
+
+.imgcontain {
+  margin: 0px 0px 30px 0px ;
+}
+
+.imgfull {
+  width: calc(100%);
+  margin-bottom: 0px;
+}
+
+.caption {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  padding: 80px 0px 0px 0px ;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pagelink {
+  padding: 5px 15px 5px 15px;
+  margin-top: 15px;
+  border: 1px solid var(--copy);
+  color: var(--copy);
+  border-radius: 30px;
+  transition: 0.3s linear;
+}
+
+.pagelink:hover {
+  border-radius: 5px;
+  transition: 0.3s linear;
+}
+
+
+h3 .active{
+  text-decoration: line-through;
+      flex-direction: row;
+}
+
+@media screen and (max-width: 800px){
+  .IndProject {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .imgfull {
+    width: 100%;
+  }
+
+  .ProjectHeader {
+    display: none;
+  }
+
+  .Section {
+    margin-top: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 0px 30px 0px ;
+  }
+}

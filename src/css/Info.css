@@ -1,0 +1,41 @@
+.Infobox {
+   margin-top: 20px;
+}
+
+table {
+  margin: auto;
+  max-width: 50%;
+ table-layout: fixed;
+ width: 100%;
+ border-collapse: collapse;
+ border-radius: 8px;
+}
+
+th {
+  padding: 10px;
+}
+
+tr {
+  color: var(--copy);
+  font-size: 1.15em;
+  font-family: input-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+}
+
+table, th, td {
+  text-align: left;
+}
+
+@media screen and (max-width: 600px){
+
+  table {
+    max-width: 99%;
+  }
+
+  th {
+    padding: 15px;
+  }
+
+}
