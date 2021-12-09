@@ -1,0 +1,418 @@
+ #root {
+  width: 100%;
+  --green: #7edaad;
+  --brown: #ccac68;
+}
+
+::-webkit-scrollbar { width: 0 }
+
+h1 {
+  color: var(--copy);
+  font-size: 2.4em;
+  line-height: 1em;
+  font-family: new-spirit, serif;
+  /* font-family: termina, sans-serif; */
+  /* font-family: neue-haas-grotesk-text, sans-serif; */
+  /* font-family: nimbus-sans, sans-serif; */
+  font-family: new-spirit, serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-top: 0px;
+}
+
+h1 a {
+  color: var(--grey);
+  transition: .3s;
+}
+
+h1 a:hover {
+  color: var(--copy) !important;
+  transition: .3s;
+}
+
+h2, p {
+  color: var(--copy);
+  font-size: 1.5em;
+  font-family: new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+  color: var(--copy);
+  font-size: .9em;
+  font-family: input-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4 {
+  margin: 0px;
+  color: var(--copy);
+  font-size: .6em;
+  font-family: input-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: input-sans, sans-serif;
+  font-size: 1.2em;
+}
+
+body {
+  width: 100% ;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px 0px 10px 0px;
+  background: var(--bg);
+  display: flex;
+  height: 100%;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.Containter {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  max-width: 2000px;
+}
+
+.MainWindow {
+  width: 100%;
+  margin: 20px;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  min-height: calc(100vh - 40px);
+  justify-content: space-between;
+  /* border-bottom: 1px dotted var(--grey); */
+}
+
+.ProjectMill {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px 0px 40px 0px ;
+  position: relative;
+}
+
+
+.ProjectMill h1{
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+
+.year {
+  color: var(--grey);
+  margin-bottom: 10px;
+}
+
+.cast {
+  max-width: 66vw;
+}
+
+::marker {
+  color: var(--copy);
+}
+
+
+.ProjectImg {
+  width: calc(50% - 80px);
+  border-radius: 3px;
+  background: var(--grey);
+  height: 45vh;
+  margin-right: 20px;
+  object-fit: cover;
+  margin-left: 25%;
+}
+
+.Projects>h1 {
+  max-width: 70%;
+}
+
+.ProjectMill>div {
+  flex-direction: column;
+  box-sizing: border-box;
+  width: calc(25% + 50px);
+}
+
+.ProjectMill>div h3 {
+  color: var(--grey);
+}
+
+.churn {
+  /* border: 1px solid var(--grey); */
+  color: var(--grey);
+  max-width: max-content;
+  padding: 10px 10px 10px 0px;
+  transition: .2s;
+  position:absolute; 
+  bottom:0;
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+}
+
+.churn h3 {
+  margin: auto;
+  padding-right: 10px;
+  color: var(--grey);
+  transition: .4s;
+}
+
+/* .liner {
+  position: fixed;
+  z-index: -1;
+  border: 1px dotted grey;
+  height: calc(100% + 10px);
+  width: calc(50vw - 90px);
+  top: -10px;
+  left: calc(25% + 1px);
+  opacity: .3;
+} */
+
+.spin {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.churn:hover, .churn:hover h3{
+  cursor: pointer;
+  color: var(--copy);
+  transition: .4s;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform .4s ease-out;
+} 
+
+a, NavLink {
+  text-decoration: none;
+  color: var(--copy);
+  transition: .3s;
+}
+
+
+code {
+  color: var(--grey);
+  margin-bottom: 1em;
+}
+
+
+p a {
+  border-bottom: 1px solid var(--copy);
+}
+
+p a:hover{
+  color: var(--grey);
+}
+
+.footer {
+  width: max-content;
+  color: var(--grey);
+  font-family: input-sans, sans-serif;
+  font-size: .7em;
+  margin: 10px;
+  margin-left: calc(25% + 10px);
+}
+
+.footer a {
+  color: var(--grey);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 700px){
+
+  .Containter {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  }
+
+  .Projects {
+    max-width: 2000px;
+    margin: auto;
+    margin: 0px;
+    padding-top: 20px;
+    width: calc(100% - 20px);
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+
+  .churn {
+    position: relative;
+  }
+
+  .Projects>h1 {
+    max-width: 100%;
+  }
+
+  .ProjectMill {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .ProjectMill div{
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .ProjectMill div>h1{
+    min-height: 190px;
+  }
+
+
+  .ProjectImg {
+    width: 100%;
+    max-height: 300px;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  h4 {
+    font-size: .6em;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .Containter {
+    margin: 10px 10px 10px  10px;
+  }
+
+  .dive {
+    padding: 15px;
+    flex-direction: column;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .MainWindow {
+    padding: 80px 0px 10px 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .construct {
+    background-color: rgba(150,150,150,0.5);
+    color: var(--bg);
+    width: calc(100vw - 55px);
+    margin: 200px -10px -60px -10px;
+    padding: 0px 20px 30px 20px;
+    text-align: center;
+    display: block;
+  }
+
+  .construct span {
+    text-align: center;
+  }
+
+  .arrow {
+  max-width: 18px;
+  }
+
+  .footer {
+    margin-left: 0%;  
+    max-width: calc(100% - 40px);
+    margin: 20px;
+  }
+
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+/* PAD */
+
+@media screen and (min-width: 700px) and (max-width: 1100px){
+
+.ProjectImg {
+  width: calc(70% - 20px);
+  position:relative;
+  left: 0px;
+  margin-left: 0;
+  height: 450px;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.dive img {
+  width: 100%;
+}
+
+.ProjectMill>div {
+  width: 40%;
+}
+
+.content {
+  width: 100%;
+}
+
+}
+
+@media screen and (min-width: 1800px){
+
+
+  .Projects {
+    min-height: auto;
+    justify-content: none;
+  }
+
+  h1 {
+    font-size: 3.3em;
+  }
+
+  h2 {
+    font-size: 2.1em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  h4 {
+    font-size: .8em;
+    line-break: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 650px;
+  }
+
+}
