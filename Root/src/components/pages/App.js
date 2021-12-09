@@ -6,6 +6,7 @@ import {
   useLocation,
   useHistory
 } from "react-router-dom";
+import Footer from '../parts/Footer.js'
 import Cases from './Cases.js';
 import ProjectCell from '../pages/ProjectCell';
 import styles from '../../css/Main.css'
@@ -31,6 +32,7 @@ const App = () => {
   const [baby, setbaby] = useState(0)
   const [hive, sethive] = useState(0)
   const [La25, setLa25] = useState(0)
+  const [Printers, setPrints] = useState(0)
 
   useEffect(() => {
     fetch(Aerial).then((response) => response.text()).then((text) => {
@@ -47,6 +49,9 @@ const App = () => {
     })
     fetch(La25x25).then((response) => response.text()).then((text) => {
       setLa25(text)
+    })
+    fetch(Prints).then((response) => response.text()).then((text) => {
+      setPrints(text)
     })
 
   },[]);
@@ -104,6 +109,9 @@ const App = () => {
 
                   <Route path="/25">
                     <ReactMarkdown renderers={renderers} escapeHtml={false} source={La25 ? La25 : null} />
+                  </Route>
+                  <Route path="/prints">
+                    <ReactMarkdown renderers={renderers} escapeHtml={false} source={Printers ? Printers : null} />
                   </Route>
                   <Route path="/aerial">
                     <ReactMarkdown renderers={renderers} escapeHtml={false} source={aerial ? aerial : null} />

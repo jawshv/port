@@ -36,45 +36,83 @@ The previous app design was confusing - with extraneous information, unclear inp
 
 ## Hivelighting.com
 
-![](./media/hive/home.png)
+I've been responsible for regularly improving and maintaining the Hive's (aging) wordpress site for the last few years. As a small team we haven't had bandwidth (or the marketing priority) to completely rebuild her, but we've been able to launch a number of useful redesigns and features.
+
+<div class="double">
+<img src="./media/hive/oldhome.jpg" class="half">
+<img src="./media/hive/newhome.jpg" class="half"></div>
+
+`The old homepage on the left vs the current homepage on the right.`
+
+<br>
+
+<html>
+<video loop controls autoplay>
+    <source src="./media/hive/hive_slider.mov" type="video/mp4">
+</video>
+</html>
+
+`This tool allows visitors to test our different corrective profiles and see how they read on skin tones`
+<br>
+
 ![](./media/hive/photometrics.png)
+`We built a tool that calculates the photometric combinations between different fixture heads and modifiers`
+
+<html>
+<video loop controls autoplay>
+    <source src="./media/hive/hive_nav.mov" type="video/mp4">
+</video>
+</html>
+
+`An icon heavy nav bar, specifically used to help with the number of international dealers Hive interacts with.`
+<br>
 
 ---- 
 
 ## 2018 - 2021 Misc. Branding Work
 
 
-
 <div class="double">
 <img src="./media/hive/hive-identity1.jpg" class="half">
 <img src="./media/hive/hive-identity2.jpg" class="half"></div>
 
-`Initial mock-ups`
+`A rough set of brand design tools for the company`
 
-![](./media/hive/hive-identity1.jpg)
-![](./media/hive/hive-identity2.jpg)
 
-![half](./media/hive/hive-silkscreen.jpg)
-![half](./media/hive/hive-specspread.jpg)
-`Testing new corrective profiles`
+![](./media/hive/hive-specspread.jpg)
+
+
 ![](./media/hive/hive-bcards.jpg)
+
 ![](./media/hive/hive-letterhead.jpg)
+
+![](./media/hive/hive-silkscreen.jpg)
+`I designed all branded etchings and silkscreens for our fixtures and power supplies.`
+
+![](./media/hive/hive-box.jpg)
+`I designed a new fully recyclable packaging system for the C-Series.`
+
+![](./media/hive/hive-pack2.jpg)
+
+---- 
 
 ## 2018 - 2021 Misc. Marketing Work
 
-![](./media/hive/Corrective_Skin.jpg)
-![](./media/hive/Corrective_app.jpg)
-`Testing new corrective profiles`
-
+My time at Hive has also been full of co-running and creating numerous pieces of marketing material, including info graphics, trade show booths, spec sheets, ads, and social media content.
 
 <html><iframe src="https://www.youtube.com/embed/UKRl7upidUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
 
 ![](./media/hive/575kit-floating_color5.jpg)
+
 ![](./media/hive/hive-sxsw.jpg)
+
+![](./media/hive/corrective_app.jpg)
+`Testing new corrective profiles`
 
 <html><iframe width="1280" height="720" src="https://www.youtube.com/embed/nzOWOCTy7X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
 
 ![](./media/hive/hive-def.jpg)
+
 ![](./media/hive/hive-fam.jpg)
 
 <html><iframe width="560" height="315" src="https://www.youtube.com/embed/too_h2hFnTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
@@ -84,7 +122,3 @@ The previous app design was confusing - with extraneous information, unclear inp
 <!-- ![](./media/hive/hive-hand.jpg) -->
 <!-- 
 <html><iframe src="https://player.vimeo.com/video/269295002" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></iframe></html> -->
-
-![](./media/hive/hive-box.jpg)
-![](./media/hive/hive-pack2.jpg)
-<!-- ![](./media/hive/hive-pack.jpg) -->

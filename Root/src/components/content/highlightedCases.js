@@ -32,6 +32,12 @@ const highlighted = [
       tags: ["design"],
       link: "/hive"
     },
+    {
+      name: "Prints",
+      copy: 'wrote and edited a short doc on the massive consequences of highway expansion in LA',
+      tags: ["illustration", "design"],
+      link: "/prints"
+    },
 
 ]
 export default highlighted

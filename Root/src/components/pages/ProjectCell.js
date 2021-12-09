@@ -31,7 +31,7 @@ const ProjectCell = ({ innerRef }) => {
 
       {/* <div class="liner"></div> */}
 
-      <h1><a href="/">josh vredevoogd</a> is a designer living in Los Angeles. currently interested in rail schematics, orthophotos, and open data.</h1>
+      <h1><a target="_blank" href="https://github.com/jawshv/port">josh vredevoogd</a> is a designer living in Los Angeles. currently interested in rail schematics, orthophotos, and open data.</h1>
 
       <h1>by day designing for <a target="_blank" href="https://hivelighting.com/">Hive Lighting</a>,  by night advocating for a healthier city with <a target="_blank" href="https://streetsforall.org/">Streets for All</a></h1>
 
