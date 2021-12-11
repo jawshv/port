@@ -1,15 +1,20 @@
 import React, { useEffect, prevState, useCallback, useState, Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import highlighted from '../content/highlightedCases';
 import style from '../../css/cases.css';
 
-function Cases() {
+function Cases({height}) {
+
+    const scrollTo = useCallback(() => {
+        window.scrollTo(0, height)
+        console.log("boop")
+    })
 
     return (
         <div class="cases">
             <h3>PROCESS</h3>
-            <div class="nav">
+            <div onClick={scrollTo} class="nav">
             {
                 highlighted.map((a, i) =>
                     <Link to={a.link}>

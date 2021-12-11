@@ -1,4 +1,5 @@
 ![-](./media/root/antenna.jpg)
+`Hive Antenna App in use during a photoshoot.`
 
 # Hive Lighting
 
@@ -42,52 +43,56 @@ I've been responsible for regularly improving and maintaining the Hive's (aging)
 <img src="./media/hive/oldhome.jpg" class="half">
 <img src="./media/hive/newhome.jpg" class="half"></div>
 
-`The old homepage on the left vs the current homepage on the right.`
+`The homepage when I started lacked calls to action or immediate information about Hive or our products`
 
 <br>
 
 <html>
-<video loop controls autoplay>
-    <source src="./media/hive/hive_slider.mov" type="video/mp4">
-</video>
-</html>
-
-`This tool allows visitors to test our different corrective profiles and see how they read on skin tones`
-<br>
-
-![](./media/hive/photometrics.png)
-`We built a tool that calculates the photometric combinations between different fixture heads and modifiers`
-
-<html>
-<video loop controls autoplay>
+<video loop autoplay>
     <source src="./media/hive/hive_nav.mov" type="video/mp4">
 </video>
 </html>
 
-`An icon heavy nav bar, specifically used to help with the number of international dealers Hive interacts with.`
+`An icon heavy nav bar helps our large number of international dealers navigate the site easier.`
+<br>
+
+
+<html>
+<video loop autoplay>
+    <source src="./media/hive/hive_slider.mov" type="video/mp4">
+</video>
+</html>
+
+`This web tool allows potential customers to test our different corrective profiles on skin using a similar UI to the Hive Antenna App.`
+<br>
+
+![](./media/hive/photometrics.png)
+`I built a tool that calculates the photometric combinations between different Hive fixture heads and modifiers`
 <br>
 
 ---- 
 
 ## 2018 - 2021 Misc. Branding Work
 
+Most of my work at Hive, be it web, marketing, or design, has been focused on unifying the Hive visual brand.
 
 <div class="double">
 <img src="./media/hive/hive-identity1.jpg" class="half">
 <img src="./media/hive/hive-identity2.jpg" class="half"></div>
 
-`A rough set of brand design tools for the company`
+`A set of generalized brand tools for Hive`
 
+<br>
 
-![](./media/hive/hive-specspread.jpg)
+![](./media/hive/hive-specall.jpg)
+
+![](./media/hive/hive-silkscreen.jpg)
+`I designed all branded etchings and silkscreens for our fixtures and power supplies.`
 
 
 ![](./media/hive/hive-bcards.jpg)
 
 ![](./media/hive/hive-letterhead.jpg)
-
-![](./media/hive/hive-silkscreen.jpg)
-`I designed all branded etchings and silkscreens for our fixtures and power supplies.`
 
 ![](./media/hive/hive-box.jpg)
 `I designed a new fully recyclable packaging system for the C-Series.`
@@ -100,7 +105,7 @@ I've been responsible for regularly improving and maintaining the Hive's (aging)
 
 My time at Hive has also been full of co-running and creating numerous pieces of marketing material, including info graphics, trade show booths, spec sheets, ads, and social media content.
 
-<html><iframe src="https://www.youtube.com/embed/UKRl7upidUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
+<html><iframe  src="https://www.youtube.com/embed/too_h2hFnTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
 
 ![](./media/hive/575kit-floating_color5.jpg)
 
@@ -109,13 +114,13 @@ My time at Hive has also been full of co-running and creating numerous pieces of
 ![](./media/hive/corrective_app.jpg)
 `Testing new corrective profiles`
 
-<html><iframe width="1280" height="720" src="https://www.youtube.com/embed/nzOWOCTy7X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
+<html><iframe src="https://www.youtube.com/embed/nzOWOCTy7X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
 
 ![](./media/hive/hive-def.jpg)
 
 ![](./media/hive/hive-fam.jpg)
 
-<html><iframe width="560" height="315" src="https://www.youtube.com/embed/too_h2hFnTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
+<html><iframe src="https://www.youtube.com/embed/UKRl7upidUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
 
 <!-- ![](./media/hive/hive-help.jpeg) -->
 <!-- ![](./media/hive/hive-banner.jpg) -->

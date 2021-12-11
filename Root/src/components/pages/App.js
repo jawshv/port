@@ -33,6 +33,7 @@ const App = () => {
   const [hive, sethive] = useState(0)
   const [La25, setLa25] = useState(0)
   const [Printers, setPrints] = useState(0)
+  const [Parking, setParking] = useState(0)
 
   useEffect(() => {
     fetch(Aerial).then((response) => response.text()).then((text) => {
@@ -52,6 +53,9 @@ const App = () => {
     })
     fetch(Prints).then((response) => response.text()).then((text) => {
       setPrints(text)
+    })
+    fetch(parking).then((response) => response.text()).then((text) => {
+      setParking(text)
     })
 
   },[]);
@@ -76,16 +80,14 @@ const App = () => {
     const inputRef = useRef(0)
     const [height, setHeight] = useState()
     
-    useEffect (() => {
+    useLayoutEffect(() => {
       setHeight(inputRef.current.offsetHeight);
-    },[]);
+    });
 
     window.addEventListener("resize", function() {
       setHeight(inputRef.current.offsetHeight);
-      });
+    });
 
-
-    
 
     return (
 
@@ -95,7 +97,7 @@ const App = () => {
           <div class="MainWindow">
             <ProjectCell  innerRef={inputRef} />
             <div className="dive">
-              <Cases />
+              <Cases  height={height} />
               <div class="liner"></div>
               <ScrollToTop objectheight={height}/>
               <Switch>
@@ -124,6 +126,9 @@ const App = () => {
                   </Route>
                   <Route path="/hive">
                     <ReactMarkdown renderers={renderers} escapeHtml={false} source={hive? hive : null} />
+                  </Route>
+                  <Route path="/parking">
+                    <ReactMarkdown renderers={renderers} escapeHtml={false} source={Parking? Parking : null} />
                   </Route>
                 </div>
               </Switch>

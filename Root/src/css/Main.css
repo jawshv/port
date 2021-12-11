@@ -6,6 +6,10 @@
 
 ::-webkit-scrollbar { width: 0 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   color: var(--copy);
   font-size: 2.4em;
