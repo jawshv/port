@@ -1,4 +1,4 @@
-import React, { useEffect, prevState, useCallback, useState, Component } from 'react';
+import React, {useCallback, useState, Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link, useLocation } from 'react-router-dom';
 import highlighted from '../content/highlightedCases';
@@ -6,9 +6,10 @@ import style from '../../css/cases.css';
 
 function Cases({height}) {
 
+    const location = useLocation();
+
     const scrollTo = useCallback(() => {
-        window.scrollTo(0, height)
-        console.log("boop")
+            //   window.scrollTo(0, height)
     })
 
     return (

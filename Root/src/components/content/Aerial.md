@@ -12,5 +12,8 @@ This project is still a work in progress, the goal is to build out a library of 
 
 [Preview the site here](https://aerial.joshvredevoogd.com/)
 
+![](./media/aerial/Whittier.jpg)
+`A 1988 example of how Aerial Photos were manually collaged and used`
+
 ![](./media/aerial/pams.jpg)
 `1940, looking at Palms in the foreground and UCLA in the distance, present day freeway alignments highlighted`
